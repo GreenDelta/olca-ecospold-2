@@ -10,7 +10,7 @@ import java.util.List;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "validPersons")
-public class PersonList {
+public class PersonList extends MasterDataList {
 
 	@XmlElement(name = "person")
 	public final List<Person> persons = new ArrayList<>();
