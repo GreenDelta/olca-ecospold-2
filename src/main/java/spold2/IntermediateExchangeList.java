@@ -1,6 +1,5 @@
 package spold2;
 
-import jakarta.xml.bind.JAXB;
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;

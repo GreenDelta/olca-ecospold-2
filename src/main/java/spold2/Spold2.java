@@ -65,10 +65,10 @@ public class Spold2 {
 		IntermediateExchange candidate = null;
 		for (IntermediateExchange e : getProducts(ds)) {
 			Integer og = e.outputGroup;
-			if (og == null || og.intValue() != 0)
+			if (og == null || og != 0)
 				continue;
 			Double a = e.amount;
-			if (a != null && a.doubleValue() != 0)
+			if (a != null && a != 0)
 				return e;
 			candidate = e;
 		}
