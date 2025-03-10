@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<validProperties majorRelease="3" minorRelease="0" majorRevision="0" minorRevision="3652" contextId="f8923a45-17bc-4e91-a688-dc7314b9f521" xmlns="http://www.EcoInvent.org/EcoSpold02">
+	<contextName xml:lang="en">testinvent</contextName>
+	<property id="27a84e12-9c5d-46b3-8061-f3142d97518c" defaultVariableName="price" unitId="563df7b8-7712-41f6-8b14-7fb32ec9c693">
+		<name xml:lang="en">economic value in USD</name>
+		<unitName xml:lang="en">kg</unitName>
+	</property>
+	<property id="58d79e36-a3fc-47b5-b63a-ec986f76b124" unitId="a95c5ef6-84c2-4b34-9dc1-28b92147e3ab">
+		<name xml:lang="en">TestSpold02Allocation_energy_42</name>
+		<unitName xml:lang="en">dimensionless</unitName>
+		<comment xml:lang="en">energy allocation 42 used in TestSpold02 datasets</comment>
+	</property>
+	<property id="c6b7e792-54d1-489a-b8e5-17394c281a35" defaultVariableName="c_Cu" unitId="d7b45921-7e7d-4685-8756-4fd8a3e6c669">
+		<name xml:lang="en">mass concentration, copper</name>
+		<unitName xml:lang="en">kg/m3</unitName>
+		<comment xml:lang="en">Mass concentration of Copper.    (CAS 007440-50-8)</comment>
+	</property>
+</validProperties>

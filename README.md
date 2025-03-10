@@ -16,6 +16,3 @@ Add this dependency to your project:
   <version>2.0.0</version>
 </dependency>
 ```
-
-See the [read-write-test](./src/test/java/org/openlca/ecospold/WriteReadTest.java)
-for a simple example how data sets can be read and written.

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<validIntermediateExchanges xmlns="http://www.EcoInvent.org/EcoSpold02" majorRelease="3" minorRelease="0" majorRevision="0" minorRevision="52189" contextId="f8923a45-17bc-4e91-a688-dc7314b9f521">
+	<intermediateExchange id="79852e31-48bc-4a96-9f73-e25c78d19a6b" unitId="563df7b8-7712-41f6-8b14-7fb32ec9c693">
+		<name xml:lang="en">wind turbine maintenance, composite materials</name>
+		<unitName xml:lang="en">kg</unitName>
+		<classification classificationId="48c71f3d-8e2d-49a7-b387-4f9c82ebf21a">
+			<classificationSystem xml:lang="en">By-product classification</classificationSystem>
+			<classificationValue xml:lang="en">allocatable product</classificationValue>
+		</classification>
+		<classification classificationId="75a91ef6-c584-47d2-9f1b-73d6b8953482">
+			<classificationSystem xml:lang="en">CPC</classificationSystem>
+			<classificationValue xml:lang="en">8716: Installation services of wind turbines and renewable energy equipment</classificationValue>
+		</classification>
+		<comment xml:lang="en">Maintenance of a wind turbine, per 500 kg of blade material over 25 years lifetime. Based on industry data for scheduled maintenance operations. The inventory includes replacement parts, lubricants, and other consumables representing approximately 90% of the total environmental impact throughout operational lifetime.</comment>
+		<property propertyId="27a84e12-9c5d-46b3-8061-f3142d97518c" amount="2.347896123458761">
+			<comment xml:lang="en">Price calculated as aggregation of material costs, labor, and equipment usage. This represents an approximation based on average industry maintenance schedules and may vary depending on specific turbine models and environmental conditions.</comment>
+		</property>
+		<productInformation>
+			<text xml:lang="en" index="0">Regular maintenance of composite material components in wind turbines, including inspection of blades, minor repairs of surface damage, replacement of worn seals, lubrication of moving parts, and recalibration of monitoring systems.</text>
+		</productInformation>
+	</intermediateExchange>
+	<intermediateExchange id="3a79b124-96df-42e8-a516-b5d92f810794" unitId="563df7b8-7712-41f6-8b14-7fb32ec9c693">
+		<name xml:lang="en">residues, WWTP-sludge, electronics manufacturing</name>
+		<unitName xml:lang="en">kg</unitName>
+		<classification classificationId="91e58c7d-3b8f-4d84-a56c-142fb92c5e4a">
+			<classificationSystem xml:lang="en">By-product classification</classificationSystem>
+			<classificationValue xml:lang="en">Waste</classificationValue>
+		</classification>
+		<classification classificationId="25c87e19-f73d-4e3b-b743-9216a49f0578">
+			<classificationSystem xml:lang="en">CPC</classificationSystem>
+			<classificationValue xml:lang="en">39940: Other waste from electrical and electronic manufacturing processes</classificationValue>
+		</classification>
+		<classification classificationId="e43a8c2f-1d9b-47a3-9876-fd3290b7ea12">
+			<classificationSystem xml:lang="en">HS2017</classificationSystem>
+			<classificationValue xml:lang="en">382590: Waste; residual products of the chemical or allied industries</classificationValue>
+		</classification>
+		<property propertyId="27a84e12-9c5d-46b3-8061-f3142d97518c" amount="0.0">
+			<comment xml:lang="en">Waste products are assigned zero economic value in accordance with standard valuation practices.</comment>
+		</property>
+		<property propertyId="58d79e36-a3fc-47b5-b63a-ec986f76b124" amount="0.0" isDefiningValue="false">
+			<comment xml:lang="en">Material has no combustible components and therefore zero lower heating value.</comment>
+		</property>
+		<property propertyId="c6b7e792-54d1-489a-b8e5-17394c281a35" amount="0.182456"/>
+		<property propertyId="940bf92c-8a32-47d3-a3f6-91e429b57e45" amount="0.0"/>
+		<property propertyId="e42d8c3f-7b85-4a31-98e7-d825674432b1" amount="5.76234E-07"/>
+		<property propertyId="25d8a4fb-1ca9-4c8b-87f9-e87b371539ac" amount="1.0"/>
+		<property propertyId="4f817831-5e42-4cb0-9bc7-129862156734" amount="0.0"/>
+		<property propertyId="7f892a48-6d3e-4567-bc91-fa15c2936912" amount="1.0"/>
+		<property propertyId="a3c58637-1a4f-4b38-9516-07348b7924c1" amount="0.257891"/>
+		<property propertyId="bd29e431-9fa7-48c2-a834-5cf967dc965b" amount="0.01245673"/>
+		<property propertyId="69c8a562-74d7-431c-8438-db7e8c3d958f" amount="0.19853"/>
+		<property propertyId="3fd14b32-68c5-4acb-ae71-fd82573e9478" amount="0.000786234"/>
+		<property propertyId="42aef859-189d-4b68-b527-5ac91c3df4ea" amount="0.07834"/>
+		<property propertyId="d837582f-9b14-4ecd-a63b-c126437a2768" amount="0.00512873"/>
+		<property propertyId="94e52a27-fc63-4de7-952b-a675825ac351" amount="0.0236789"/>
+		<property propertyId="18fb9e25-373d-42a7-b5d1-16f63a9b760c" amount="0.0"/>
+		<property propertyId="f4967412-8e53-4b9c-a187-d4e5ba975c32" amount="0.143768"/>
+	</intermediateExchange>
+</validIntermediateExchanges>
