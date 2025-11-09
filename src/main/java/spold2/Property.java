@@ -40,4 +40,7 @@ public class Property {
 	@XmlElement(name = "unitName")
 	public String unit;
 
+	@XmlElement(name = "comment")
+	public String comment;
+
 }

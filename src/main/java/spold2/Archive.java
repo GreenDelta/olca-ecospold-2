@@ -1,10 +1,10 @@
 package spold2;
 
-import org.apache.commons.compress.archivers.sevenz.SevenZFile;
-
 import java.io.File;
 import java.io.InputStream;
 import java.util.function.Consumer;
+
+import org.apache.commons.compress.archivers.sevenz.SevenZFile;
 
 /**
  * Archive can directly read EcoSpold 2 data from 7z packages that are
@@ -20,7 +20,9 @@ public class Archive implements AutoCloseable {
 
 	public static Archive open(File file) {
 		try {
-			var zip = new SevenZFile(file);
+			var zip = SevenZFile.builder()
+				.setFile(file)
+				.get();
 			return new Archive(zip);
 		} catch (Exception e) {
 			throw err("failed to open " + file, e);
@@ -99,6 +101,17 @@ public class Archive implements AutoCloseable {
 			return UnitConversionList.readFrom(stream);
 		} catch (Exception e) {
 			throw err("failed to parse unit conversion list", e);
+		}
+	}
+
+	public PropertyList getPropertyList() {
+		var stream = findEntry("Properties.xml");
+		if (stream == null)
+			return new PropertyList();
+		try (stream) {
+			return PropertyList.readFrom(stream);
+		} catch (Exception e) {
+			throw err("failed to parse property list", e);
 		}
 	}
 

@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class ArchiveExample {
 
 	public static void main(String[] args) {
-		var path = "/mnt/extssd/ei-3.10/cutoff.7z";
+		var path = "/home/ms/Downloads/ecoinvent 3.12_cutoff_ecoSpold02.7z";
 		var start = System.nanoTime();
 		System.out.println("Parse package ...");
 		try (var a = Archive.open(new File(path))) {
@@ -41,7 +41,7 @@ public class ArchiveExample {
 		}
 
 		var time = System.nanoTime() - start;
-		var s = ((double) time) / 1e9;
+		var s = (time) / 1e9;
 		System.out.printf("parsed package in %.2f seconds%n", s);
 	}
 }
