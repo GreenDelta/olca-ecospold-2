@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <validSources 
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="../../../../../../schemas/MasterData/EcoSpold02Sources.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
 	majorRelease="3" 
 	minorRelease="0" 
 	majorRevision="0" 
