@@ -41,7 +41,7 @@ public class ExtractProductPropertiesExample {
 					cons(csv, prop.name, ',');
 					csv.append(p.amount).append(',');
 					cons(csv, unit, ',');
-					cons(csv, p.comment, '\n');
+					cons(csv, prop.comment, '\n');
 				}
 			}
 
